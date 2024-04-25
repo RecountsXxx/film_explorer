@@ -1,0 +1,220 @@
+2024-04-24 14:00:52,379 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-24 14:00:52,381 INFO supervisord started with pid 1
+2024-04-24 14:00:53,383 INFO spawned: 'composer' with pid 14
+2024-04-24 14:00:53,385 INFO spawned: 'laravel' with pid 15
+2024-04-24 14:00:53,386 INFO spawned: 'php-fpm' with pid 16
+2024-04-24 14:00:53,561 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-24 14:00:54,520 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 14:00:54,520 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 14:00:55,022 INFO spawned: 'php-fpm' with pid 43
+2024-04-24 14:00:55,049 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 14:00:55,049 INFO reaped unknown pid 44 (exit status 78)
+2024-04-24 14:00:55,252 INFO exited: composer (exit status 0; expected)
+2024-04-24 14:00:57,527 INFO spawned: 'php-fpm' with pid 55
+2024-04-24 14:00:57,551 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 14:00:57,551 INFO reaped unknown pid 56 (exit status 78)
+2024-04-24 14:01:01,030 INFO spawned: 'php-fpm' with pid 57
+2024-04-24 14:01:01,056 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 14:01:01,056 INFO reaped unknown pid 58 (exit status 78)
+2024-04-24 14:01:02,057 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-24 14:02:39,154 INFO reaped unknown pid 96 (exit status 0)
+2024-04-24 14:17:56,524 INFO reaped unknown pid 176 (exit status 0)
+2024-04-24 14:34:13,368 INFO reaped unknown pid 213 (exit status 0)
+2024-04-24 14:38:54,448 WARN received SIGQUIT indicating exit request
+2024-04-24 14:38:54,454 INFO waiting for laravel to die
+2024-04-24 14:38:56,467 WARN stopped: laravel (terminated by SIGTERM)
+2024-04-24 14:38:57,454 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-24 14:38:57,457 INFO supervisord started with pid 1
+2024-04-24 14:38:58,461 INFO spawned: 'composer' with pid 22
+2024-04-24 14:38:58,467 INFO spawned: 'laravel' with pid 23
+2024-04-24 14:38:58,473 INFO spawned: 'php-fpm' with pid 24
+2024-04-24 14:38:58,614 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-24 14:39:00,181 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 14:39:00,181 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 14:39:00,182 INFO spawned: 'php-fpm' with pid 45
+2024-04-24 14:39:00,208 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 14:39:00,208 INFO reaped unknown pid 46 (exit status 78)
+2024-04-24 14:39:00,628 INFO exited: composer (exit status 0; expected)
+2024-04-24 14:39:02,631 INFO spawned: 'php-fpm' with pid 54
+2024-04-24 14:39:02,659 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 14:39:02,659 INFO reaped unknown pid 55 (exit status 78)
+2024-04-24 14:39:05,662 INFO spawned: 'php-fpm' with pid 56
+2024-04-24 14:39:05,688 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 14:39:05,688 INFO reaped unknown pid 57 (exit status 78)
+2024-04-24 14:39:06,689 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-24 17:24:35,748 WARN received SIGQUIT indicating exit request
+2024-04-24 17:24:35,758 INFO waiting for laravel to die
+2024-04-24 17:24:37,776 WARN stopped: laravel (terminated by SIGTERM)
+2024-04-24 17:24:38,905 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-24 17:24:38,907 INFO supervisord started with pid 1
+2024-04-24 17:24:39,912 INFO spawned: 'composer' with pid 32
+2024-04-24 17:24:39,916 INFO spawned: 'laravel' with pid 33
+2024-04-24 17:24:39,921 INFO spawned: 'php-fpm' with pid 34
+2024-04-24 17:24:40,078 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-24 17:24:41,688 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 17:24:41,688 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 17:24:41,689 INFO spawned: 'php-fpm' with pid 55
+2024-04-24 17:24:41,712 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 17:24:41,712 INFO reaped unknown pid 56 (exit status 78)
+2024-04-24 17:24:42,098 INFO exited: composer (exit status 0; expected)
+2024-04-24 17:24:44,100 INFO spawned: 'php-fpm' with pid 64
+2024-04-24 17:24:44,124 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 17:24:44,124 INFO reaped unknown pid 65 (exit status 78)
+2024-04-24 17:24:47,128 INFO spawned: 'php-fpm' with pid 66
+2024-04-24 17:24:47,156 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 17:24:47,156 INFO reaped unknown pid 67 (exit status 78)
+2024-04-24 17:24:48,157 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-24 17:35:53,953 WARN received SIGQUIT indicating exit request
+2024-04-24 17:35:53,955 INFO waiting for laravel to die
+2024-04-24 17:35:55,960 WARN stopped: laravel (terminated by SIGTERM)
+2024-04-24 17:36:24,653 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-24 17:36:24,657 INFO supervisord started with pid 1
+2024-04-24 17:36:25,662 INFO spawned: 'composer' with pid 7
+2024-04-24 17:36:25,667 INFO spawned: 'laravel' with pid 8
+2024-04-24 17:36:25,671 INFO spawned: 'php-fpm' with pid 9
+2024-04-24 17:36:25,893 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-24 17:36:27,523 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 17:36:27,524 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 17:36:27,525 INFO spawned: 'php-fpm' with pid 30
+2024-04-24 17:36:27,549 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 17:36:27,550 INFO reaped unknown pid 31 (exit status 78)
+2024-04-24 17:36:28,132 INFO exited: composer (exit status 0; expected)
+2024-04-24 17:36:30,028 INFO spawned: 'php-fpm' with pid 39
+2024-04-24 17:36:30,055 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 17:36:30,055 INFO reaped unknown pid 40 (exit status 78)
+2024-04-24 17:36:33,060 INFO spawned: 'php-fpm' with pid 41
+2024-04-24 17:36:33,083 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 17:36:33,084 INFO reaped unknown pid 42 (exit status 78)
+2024-04-24 17:36:33,528 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-24 17:40:46,156 WARN received SIGQUIT indicating exit request
+2024-04-24 17:40:46,156 INFO waiting for laravel to die
+2024-04-24 17:40:48,159 WARN stopped: laravel (terminated by SIGTERM)
+2024-04-24 17:40:48,909 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-24 17:40:48,910 INFO supervisord started with pid 1
+2024-04-24 17:40:49,912 INFO spawned: 'composer' with pid 15
+2024-04-24 17:40:49,913 INFO spawned: 'laravel' with pid 16
+2024-04-24 17:40:49,915 INFO spawned: 'php-fpm' with pid 17
+2024-04-24 17:40:50,025 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-24 17:40:51,382 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 17:40:51,382 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 17:40:51,384 INFO spawned: 'php-fpm' with pid 38
+2024-04-24 17:40:51,412 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 17:40:51,413 INFO reaped unknown pid 41 (exit status 78)
+2024-04-24 17:40:51,528 INFO exited: composer (exit status 0; expected)
+2024-04-24 17:40:53,531 INFO spawned: 'php-fpm' with pid 47
+2024-04-24 17:40:53,555 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 17:40:53,555 INFO reaped unknown pid 48 (exit status 78)
+2024-04-24 17:40:57,056 INFO spawned: 'php-fpm' with pid 49
+2024-04-24 17:40:57,086 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 17:40:57,086 INFO reaped unknown pid 50 (exit status 78)
+2024-04-24 17:40:58,087 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-24 20:16:58,189 WARN received SIGQUIT indicating exit request
+2024-04-24 20:16:58,198 INFO waiting for laravel to die
+2024-04-24 20:17:00,212 WARN stopped: laravel (terminated by SIGTERM)
+2024-04-24 20:17:01,259 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-24 20:17:01,262 INFO supervisord started with pid 1
+2024-04-24 20:17:02,265 INFO spawned: 'composer' with pid 23
+2024-04-24 20:17:02,266 INFO spawned: 'laravel' with pid 24
+2024-04-24 20:17:02,268 INFO spawned: 'php-fpm' with pid 25
+2024-04-24 20:17:02,404 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-24 20:17:03,955 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 20:17:03,955 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 20:17:03,957 INFO spawned: 'php-fpm' with pid 46
+2024-04-24 20:17:03,981 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 20:17:03,981 INFO reaped unknown pid 47 (exit status 78)
+2024-04-24 20:17:04,442 INFO exited: composer (exit status 0; expected)
+2024-04-24 20:17:06,444 INFO spawned: 'php-fpm' with pid 55
+2024-04-24 20:17:06,468 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 20:17:06,468 INFO reaped unknown pid 56 (exit status 78)
+2024-04-24 20:17:09,472 INFO spawned: 'php-fpm' with pid 57
+2024-04-24 20:17:09,500 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 20:17:09,500 INFO reaped unknown pid 58 (exit status 78)
+2024-04-24 20:17:10,501 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-24 20:35:24,888 WARN received SIGQUIT indicating exit request
+2024-04-24 20:35:24,894 INFO waiting for laravel to die
+2024-04-24 20:35:26,904 WARN stopped: laravel (terminated by SIGTERM)
+2024-04-24 20:35:27,913 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-24 20:35:27,916 INFO supervisord started with pid 1
+2024-04-24 20:35:28,918 INFO spawned: 'composer' with pid 31
+2024-04-24 20:35:28,919 INFO spawned: 'laravel' with pid 32
+2024-04-24 20:35:28,921 INFO spawned: 'php-fpm' with pid 33
+2024-04-24 20:35:29,073 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-24 20:35:30,176 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 20:35:30,176 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-24 20:35:30,177 INFO spawned: 'php-fpm' with pid 54
+2024-04-24 20:35:30,220 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 20:35:30,220 INFO reaped unknown pid 55 (exit status 78)
+2024-04-24 20:35:31,280 INFO exited: composer (exit status 0; expected)
+2024-04-24 20:35:32,282 INFO spawned: 'php-fpm' with pid 63
+2024-04-24 20:35:32,308 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 20:35:32,308 INFO reaped unknown pid 64 (exit status 78)
+2024-04-24 20:35:35,315 INFO spawned: 'php-fpm' with pid 65
+2024-04-24 20:35:35,348 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-24 20:35:35,349 INFO reaped unknown pid 66 (exit status 78)
+2024-04-24 20:35:36,350 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-24 20:41:34,871 WARN received SIGQUIT indicating exit request
+2024-04-24 20:41:34,872 INFO waiting for laravel to die
+2024-04-24 20:41:36,874 WARN stopped: laravel (terminated by SIGTERM)
+2024-04-25 07:48:28,858 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 07:48:28,862 INFO supervisord started with pid 1
+2024-04-25 07:48:29,865 INFO spawned: 'composer' with pid 7
+2024-04-25 07:48:29,867 INFO spawned: 'laravel' with pid 8
+2024-04-25 07:48:29,869 INFO spawned: 'php-fpm' with pid 9
+2024-04-25 07:48:30,158 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-25 07:48:31,842 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 07:48:31,842 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 07:48:31,844 INFO spawned: 'php-fpm' with pid 30
+2024-04-25 07:48:31,881 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 07:48:32,343 INFO reaped unknown pid 31 (exit status 78)
+2024-04-25 07:48:33,092 INFO exited: composer (exit status 0; expected)
+2024-04-25 07:48:34,847 INFO spawned: 'php-fpm' with pid 41
+2024-04-25 07:48:34,887 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 07:48:34,887 INFO reaped unknown pid 42 (exit status 78)
+2024-04-25 07:48:37,891 INFO spawned: 'php-fpm' with pid 43
+2024-04-25 07:48:37,925 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 07:48:37,925 INFO reaped unknown pid 44 (exit status 78)
+2024-04-25 07:48:38,926 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-25 10:18:37,213 WARN received SIGQUIT indicating exit request
+2024-04-25 10:18:37,220 INFO waiting for laravel to die
+2024-04-25 10:18:39,236 WARN stopped: laravel (terminated by SIGTERM)
+2024-04-25 10:18:56,314 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 10:18:56,317 INFO supervisord started with pid 1
+2024-04-25 10:18:57,318 INFO spawned: 'composer' with pid 7
+2024-04-25 10:18:57,319 INFO spawned: 'laravel' with pid 8
+2024-04-25 10:18:57,321 INFO spawned: 'php-fpm' with pid 9
+2024-04-25 10:18:57,486 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-25 10:18:59,153 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 10:18:59,153 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 10:18:59,155 INFO spawned: 'php-fpm' with pid 32
+2024-04-25 10:18:59,188 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 10:18:59,188 INFO reaped unknown pid 33 (exit status 78)
+2024-04-25 10:18:59,852 INFO exited: composer (exit status 0; expected)
+2024-04-25 10:19:02,158 INFO spawned: 'php-fpm' with pid 43
+2024-04-25 10:19:02,183 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 10:19:02,183 INFO reaped unknown pid 44 (exit status 78)
+2024-04-25 10:19:05,187 INFO spawned: 'php-fpm' with pid 45
+2024-04-25 10:19:05,216 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 10:19:05,217 INFO reaped unknown pid 46 (exit status 78)
+2024-04-25 10:19:06,218 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-25 11:56:37,217 WARN received SIGQUIT indicating exit request
+2024-04-25 11:56:37,224 INFO waiting for laravel to die
+2024-04-25 11:56:39,239 WARN stopped: laravel (terminated by SIGTERM)
+2024-04-25 13:26:11,733 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 13:26:11,741 INFO supervisord started with pid 1
+2024-04-25 13:26:12,743 INFO spawned: 'composer' with pid 7
+2024-04-25 13:26:12,745 INFO spawned: 'laravel' with pid 8
+2024-04-25 13:26:12,746 INFO spawned: 'php-fpm' with pid 9
+2024-04-25 13:26:12,999 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-25 13:26:14,682 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 13:26:14,682 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 13:26:14,683 INFO spawned: 'php-fpm' with pid 30
+2024-04-25 13:26:14,708 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 13:26:14,708 INFO reaped unknown pid 31 (exit status 78)
+2024-04-25 13:26:15,465 INFO exited: composer (exit status 0; expected)
+2024-04-25 13:26:17,469 INFO spawned: 'php-fpm' with pid 39
+2024-04-25 13:26:17,505 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 13:26:17,505 INFO reaped unknown pid 40 (exit status 78)
+2024-04-25 13:26:20,509 INFO spawned: 'php-fpm' with pid 41
+2024-04-25 13:26:20,552 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 13:26:20,553 INFO reaped unknown pid 42 (exit status 78)
+2024-04-25 13:26:21,554 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
