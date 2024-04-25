@@ -218,3 +218,6 @@
 2024-04-25 13:26:20,552 WARN exited: php-fpm (exit status 70; not expected)
 2024-04-25 13:26:20,553 INFO reaped unknown pid 42 (exit status 78)
 2024-04-25 13:26:21,554 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-25 14:17:02,731 WARN received SIGQUIT indicating exit request
+2024-04-25 14:17:02,739 INFO waiting for laravel to die
+2024-04-25 14:17:04,754 WARN stopped: laravel (terminated by SIGTERM)
