@@ -34,8 +34,8 @@ services:
       dockerfile: ./services/mysql/Dockerfile
       context: .
     container_name: db.mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: 'root'
+    env_file:
+      - .env
     volumes:
       - ./volumes/db/mysql/main:/var/lib/mysql
     ports:

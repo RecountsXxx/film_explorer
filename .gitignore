@@ -12,7 +12,7 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
-/volumes/db
+volumes
 
 *.log
 *.lock
