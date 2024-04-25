@@ -600,3 +600,7 @@
 2024-04-25 17:06:21,803 INFO gave up: laravel-storage entered FATAL state, too many start retries too quickly
 2024-04-25 17:06:21,803 WARN exited: laravel-migrate (exit status 0; not expected)
 2024-04-25 17:06:22,804 INFO gave up: laravel-migrate entered FATAL state, too many start retries too quickly
+2024-04-25 17:09:34,723 WARN received SIGQUIT indicating exit request
+2024-04-25 17:09:34,730 INFO waiting for laravel to die
+2024-04-25 17:09:37,733 INFO waiting for laravel to die
+2024-04-25 17:09:39,746 WARN stopped: laravel (terminated by SIGTERM)
