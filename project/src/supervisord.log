@@ -221,3 +221,30 @@
 2024-04-25 14:17:02,731 WARN received SIGQUIT indicating exit request
 2024-04-25 14:17:02,739 INFO waiting for laravel to die
 2024-04-25 14:17:04,754 WARN stopped: laravel (terminated by SIGTERM)
+2024-04-25 14:39:54,357 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 14:39:54,361 INFO supervisord started with pid 1
+2024-04-25 14:39:55,365 INFO spawned: 'composer' with pid 8
+2024-04-25 14:39:55,369 INFO spawned: 'laravel' with pid 9
+2024-04-25 14:39:55,371 INFO spawnerr: can't find command '/usr/local/bin/npm'
+2024-04-25 14:39:55,374 INFO spawned: 'php-fpm' with pid 10
+2024-04-25 14:39:55,678 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-25 14:39:57,029 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 14:39:57,029 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 14:39:57,029 INFO spawnerr: can't find command '/usr/local/bin/npm'
+2024-04-25 14:39:57,030 INFO spawned: 'php-fpm' with pid 31
+2024-04-25 14:39:57,061 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 14:39:57,061 INFO reaped unknown pid 34 (exit status 78)
+2024-04-25 14:39:57,172 INFO exited: composer (exit status 0; expected)
+2024-04-25 14:39:59,175 INFO spawnerr: can't find command '/usr/local/bin/npm'
+2024-04-25 14:39:59,177 INFO spawned: 'php-fpm' with pid 40
+2024-04-25 14:39:59,234 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 14:39:59,234 INFO reaped unknown pid 41 (exit status 78)
+2024-04-25 14:40:02,238 INFO spawnerr: can't find command '/usr/local/bin/npm'
+2024-04-25 14:40:02,238 INFO gave up: npm entered FATAL state, too many start retries too quickly
+2024-04-25 14:40:02,242 INFO spawned: 'php-fpm' with pid 42
+2024-04-25 14:40:02,302 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 14:40:02,303 INFO reaped unknown pid 43 (exit status 78)
+2024-04-25 14:40:03,304 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-25 14:41:39,401 WARN received SIGQUIT indicating exit request
+2024-04-25 14:41:39,401 INFO waiting for laravel to die
+2024-04-25 14:41:42,404 WARN stopped: laravel (terminated by SIGTERM)

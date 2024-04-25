@@ -10,8 +10,6 @@ services:
       - ./project/src:/var/www/html
     ports:
       - '8000:8000'
-    env_file:
-      - ./.env
     networks:
       - sne
     depends_on:
@@ -38,8 +36,6 @@ services:
     container_name: db.mysql
     volumes:
       - ./volumes/db/mysql/main:/var/lib/mysql
-    env_file:
-      - .env
     ports:
       - '3306:3306'
     networks:
