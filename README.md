@@ -4,7 +4,7 @@
 
 ## Deployment
 - **Start script "setup.sh" command:** Run `/bin/bash/setup.sh` and wait for the initial setup.
-- **Other** `php artisan migrate`, `php artisan storage:link`
+- **Other** `npm i && npm run dev && php artisan migrate`, должно сделать само, но на всякий случай
 - **For other runs, enter the command:** `docker-compose up -d` and `npm run dev` to start the services.
 ![Снимок экрана от 2024-04-25 18-44-06](https://github.com/RecountsXxx/film_explorer/assets/107986811/901fa6e2-0197-48b4-83de-5eb31e2da705)
 ![Снимок экрана от 2024-04-25 18-43-59](https://github.com/RecountsXxx/film_explorer/assets/107986811/a6a15b3a-d4d4-4b6f-a38f-69ad4626e3e9)
