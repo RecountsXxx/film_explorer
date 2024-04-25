@@ -11,6 +11,8 @@
 ![Снимок экрана от 2024-04-25 18-43-54](https://github.com/RecountsXxx/film_explorer/assets/107986811/cee98125-85ec-451a-85b6-bbe6ecb97c11)
 ![Снимок экрана от 2024-04-25 18-43-47](https://github.com/RecountsXxx/film_explorer/assets/107986811/585fb027-7213-473a-8397-be8a06e355cc)
 ![Снимок экрана от 2024-04-25 18-43-37](https://github.com/RecountsXxx/film_explorer/assets/107986811/c3821c21-0d31-47d3-84a2-4bb3b955d2bb)
+![image](https://github.com/RecountsXxx/film_explorer/assets/107986811/63cb4cec-4cd9-40af-9ba5-1daf22ea0fe9)
+
 ![Снимок экрана от 2024-04-25 18-43-30](https://github.com/RecountsXxx/film_explorer/assets/107986811/409a9835-0a6e-4444-a412-bb782fcc5826)
 ![Снимок экрана от 2024-04-25 18-43-22](https://github.com/RecountsXxx/film_explorer/assets/107986811/9daacf69-0455-4b27-8867-1e3205d0b4c7)
 ![Снимок экрана от 2024-04-25 18-43-11](https://github.com/RecountsXxx/film_explorer/assets/107986811/8a056105-e100-4000-b376-fd51fde94e90)
