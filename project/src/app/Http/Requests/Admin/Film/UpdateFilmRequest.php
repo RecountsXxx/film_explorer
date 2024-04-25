@@ -18,14 +18,14 @@ class UpdateFilmRequest extends FormRequest
             'title_en' => 'string',
             'description_uk' => 'string',
             'description_en' => 'string',
-            'poster' => 'image',
+            'poster' => 'image|max:8148',
             'youtube_trailer_id' => 'nullable|string',
             'release_year' => 'required|integer',
             'start_date' => 'nullable|date',
             'end_date' => 'nullable|date|after:start_date',
             'cast_member_id' => 'array|min:1|max:100',
             'cast_member_id.*' => 'exists:cast_members,id',
-            'new_images.*' => 'image|max:2048',
+            'new_images.*' => 'image|max:8148',
             'status'=>'in:Show,Hide',
         ];
     }

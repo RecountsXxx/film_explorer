@@ -604,3 +604,66 @@
 2024-04-25 17:09:34,730 INFO waiting for laravel to die
 2024-04-25 17:09:37,733 INFO waiting for laravel to die
 2024-04-25 17:09:39,746 WARN stopped: laravel (terminated by SIGTERM)
+2024-04-25 18:37:28,193 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 18:37:28,197 INFO supervisord started with pid 1
+2024-04-25 18:37:29,200 INFO spawned: 'composer' with pid 7
+2024-04-25 18:37:29,202 INFO spawned: 'laravel' with pid 8
+2024-04-25 18:37:29,204 INFO spawned: 'laravel-migrate' with pid 9
+2024-04-25 18:37:29,207 INFO spawned: 'laravel-storage' with pid 10
+2024-04-25 18:37:29,221 INFO spawnerr: can't find command '/usr/local/bin/npm'
+2024-04-25 18:37:29,223 INFO spawned: 'php-fpm' with pid 11
+2024-04-25 18:37:29,777 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-25 18:37:30,106 WARN exited: laravel-storage (exit status 0; not expected)
+2024-04-25 18:37:30,511 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 18:37:30,511 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 18:37:30,511 INFO success: laravel-migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 18:37:30,511 INFO spawnerr: can't find command '/usr/local/bin/npm'
+2024-04-25 18:37:30,511 INFO exited: laravel-migrate (exit status 0; expected)
+2024-04-25 18:37:31,514 INFO spawned: 'laravel-storage' with pid 36
+2024-04-25 18:37:31,517 INFO spawned: 'php-fpm' with pid 37
+2024-04-25 18:37:31,599 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 18:37:31,738 INFO reaped unknown pid 38 (exit status 78)
+2024-04-25 18:37:31,743 WARN exited: laravel-storage (exit status 0; not expected)
+2024-04-25 18:37:32,744 INFO spawnerr: can't find command '/usr/local/bin/npm'
+2024-04-25 18:37:33,465 INFO exited: composer (exit status 0; expected)
+2024-04-25 18:37:34,514 INFO spawned: 'laravel-storage' with pid 50
+2024-04-25 18:37:34,515 INFO spawned: 'php-fpm' with pid 51
+2024-04-25 18:37:34,546 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 18:37:34,546 INFO reaped unknown pid 52 (exit status 78)
+2024-04-25 18:37:34,645 WARN exited: laravel-storage (exit status 0; not expected)
+2024-04-25 18:37:36,648 INFO spawnerr: can't find command '/usr/local/bin/npm'
+2024-04-25 18:37:36,648 INFO gave up: npm entered FATAL state, too many start retries too quickly
+2024-04-25 18:37:37,651 INFO spawned: 'laravel-storage' with pid 55
+2024-04-25 18:37:37,652 INFO spawned: 'php-fpm' with pid 56
+2024-04-25 18:37:37,703 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 18:37:37,703 INFO reaped unknown pid 57 (exit status 78)
+2024-04-25 18:37:37,970 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-04-25 18:37:37,974 WARN exited: laravel-storage (exit status 0; not expected)
+2024-04-25 18:37:38,514 INFO gave up: laravel-storage entered FATAL state, too many start retries too quickly
+2024-04-25 18:39:40,974 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-04-25 18:39:40,978 INFO supervisord started with pid 1
+2024-04-25 18:39:41,986 INFO spawned: 'composer' with pid 7
+2024-04-25 18:39:41,988 INFO spawned: 'laravel' with pid 8
+2024-04-25 18:39:41,992 INFO spawned: 'laravel-migrate' with pid 9
+2024-04-25 18:39:42,003 INFO spawned: 'laravel-storage' with pid 10
+2024-04-25 18:39:42,055 INFO spawned: 'npm' with pid 11
+2024-04-25 18:39:42,057 INFO spawned: 'php-fpm' with pid 12
+2024-04-25 18:39:42,791 WARN exited: php-fpm (exit status 0; not expected)
+2024-04-25 18:39:43,054 INFO success: composer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 18:39:43,054 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 18:39:43,054 INFO success: laravel-migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 18:39:43,054 INFO success: laravel-storage entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 18:39:43,054 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-04-25 18:39:43,165 INFO exited: laravel-storage (exit status 0; expected)
+2024-04-25 18:39:43,560 INFO exited: laravel-migrate (exit status 0; expected)
+2024-04-25 18:39:44,096 INFO spawned: 'php-fpm' with pid 47
+2024-04-25 18:39:44,608 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 18:39:44,608 INFO reaped unknown pid 55 (exit status 78)
+2024-04-25 18:39:46,960 INFO spawned: 'php-fpm' with pid 72
+2024-04-25 18:39:47,004 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 18:39:47,004 INFO reaped unknown pid 73 (exit status 78)
+2024-04-25 18:39:47,498 INFO exited: composer (exit status 0; expected)
+2024-04-25 18:39:50,501 INFO spawned: 'php-fpm' with pid 81
+2024-04-25 18:39:50,526 WARN exited: php-fpm (exit status 70; not expected)
+2024-04-25 18:39:50,526 INFO reaped unknown pid 82 (exit status 78)
+2024-04-25 18:39:51,527 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
